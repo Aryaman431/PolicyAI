@@ -1,0 +1,114 @@
+# PolicyAI - AI-Powered Policy Analyzer
+# Git ignore file for version control
+
+# ==================== CRITICAL - NEVER COMMIT ====================
+# Environment files containing API keys and secrets
+.env
+.env.local
+.env.*
+!.env.example  # Keep example file if you create one
+
+# ==================== PYTHON ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# ==================== IDE & EDITOR ====================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Other editors
+*.swp
+*.swo
+*~
+.sublime-*
+
+# ==================== OPERATING SYSTEM ====================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==================== STREAMLIT ====================
+# Streamlit cache and config
+.streamlit/
+
+# ==================== TEST & COVERAGE ====================
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+
+# pytest
+.pytest_cache/
+.mypy_cache/
+
+# ==================== LOGS ====================
+# Log files
+*.log
+logs/
+
+# ==================== TEMPORARY FILES ====================
+# Temporary files
+*.tmp
+*.temp
+
+# ==================== PROJECT SPECIFIC ====================
+# Keep these in version control:
+# !app.py              # Main application
+# !requirements.txt    # Dependencies
+# !README.md          # Documentation
+# !example_policies.md # Sample policies
+# !setup.bat          # Windows setup
+# !setup.sh           # Linux/macOS setup
+# !.gitignore         # This file
+
+# Ignore any generated or personal files
+personal_notes.md
+test_outputs/
+generated/
+drafts/
